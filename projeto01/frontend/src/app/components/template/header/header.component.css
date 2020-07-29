@@ -16,3 +16,7 @@
 .header .title-group{
     padding-left:25px;
 }
+
+.title-group a>i{
+    margin-right: 10px;
+}

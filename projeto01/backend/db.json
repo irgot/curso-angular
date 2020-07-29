@@ -1,19 +1,49 @@
 {
-    "products":[
-        {
-        "id":1,
-        "name":"Caneta BIC Preta",
-        "price":5.89
-        },
-        {
-        "id":2,
-        "name":"Notebook Mac Pro",
-        "price":12000.89
-        },
-        {
-        "id":3,
-        "name":"Samsung S20+",
-        "price":5000.01
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Samsung S20+",
+      "price": 5000.01
+    },
+    {
+      "name": "João Souza",
+      "price": "1.99",
+      "id": 4
+    },
+    {
+      "name": "Igor Souza",
+      "price": 10.99,
+      "id": 5
+    },
+    {
+      "name": "Teste novo produto",
+      "price": "10000.01",
+      "id": 6
+    },
+    {
+      "name": "Lapis Preto",
+      "price": "2.50",
+      "id": 7
+    },
+    {
+      "name": "teste",
+      "price": "12",
+      "id": 9
+    },
+    {
+      "name": "Admin",
+      "price": "1234",
+      "id": 10
+    }
+  ]
 }
