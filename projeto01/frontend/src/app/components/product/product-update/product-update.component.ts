@@ -29,7 +29,7 @@ export class ProductUpdateComponent implements OnInit {
         this.router.navigate(["/products"]);
     }
     ngOnInit(): void {
-        const id = this.route.snapshot.paramMap.get("id");
+        const id = +this.route.snapshot.paramMap.get("id");
         this.productService.readById(id).subscribe((product) => {
             this.product = product;
         });
